@@ -2,7 +2,7 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -24,4 +24,63 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(93, 87, 87);
+}
+
+a:visited {
+  text-decoration: none;
+  color:  rgb(93, 87, 87);
+}
+
+a:hover {
+  color:  rgb(93, 87, 87);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: lightgray;
+  flex: 0 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap:10px; 
 }
